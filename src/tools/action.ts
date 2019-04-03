@@ -19,7 +19,7 @@ const _ = require("lodash");
 function compose(actions: Array<string>) {
   return _.join(actions, "|");
 }
-
+//lalala
 function decompose(id: string) {
   return id.split("|");
 }
@@ -38,7 +38,7 @@ enum RouteName {
   Settings = "Settings",
   Tray = "Tray"
 }
-
+//sajaaaaaaaaaaaaaaaaaaaaaa
 interface Action {
   label?: string;
   type: MenuItemType;
